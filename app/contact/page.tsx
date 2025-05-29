@@ -61,7 +61,7 @@ export default function ContactPage() {
                     <h3 className="font-bold mb-1">Email</h3>
                     <p className="text-secondary-700">
                       <a href="mailto:info@johnsonsfleetservice.com" className="hover:text-primary-700">
-                        info@johnsonsfleetservice.com
+                        info@jfsatx.com
                       </a>
                     </p>
                   </div>
@@ -106,7 +106,7 @@ export default function ContactPage() {
               </div>
             </div>
 
-            <div className="lg:w-2/3">
+            <div className="hidden lg:w-2/3">
               <div className="bg-white p-8 rounded-lg shadow-md">
                 <h2 className="text-2xl font-bold mb-6">Send Us a Message</h2>
                 <ContactForm />

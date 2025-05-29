@@ -67,12 +67,12 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-secondary-200 hover:text-white">
+                <Link href="/about" className="hidden text-secondary-200 hover:text-white">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/join-our-team" className="text-secondary-200 hover:text-white">
+                <Link href="/join-our-team" className="hidden text-secondary-200 hover:text-white">
                   Join Our Team
                 </Link>
               </li>

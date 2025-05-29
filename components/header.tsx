@@ -35,10 +35,10 @@ export default function Header() {
             <Link href="/services" className="text-secondary-800 hover:text-primary-700 font-medium">
               Services
             </Link>
-            <Link href="/about" className="text-secondary-800 hover:text-primary-700 font-medium">
+            <Link href="/about" className="hidden text-secondary-800 hover:text-primary-700 font-medium">
               About Us
             </Link>
-            <Link href="/join-our-team" className="text-secondary-800 hover:text-primary-700 font-medium">
+            <Link href="/join-our-team" className="hidden text-secondary-800 hover:text-primary-700 font-medium">
               Join Our Team
             </Link>
             <Link href="/contact" className="text-secondary-800 hover:text-primary-700 font-medium">
@@ -86,14 +86,14 @@ export default function Header() {
             </Link>
             <Link
               href="/about"
-              className="block text-secondary-800 hover:text-primary-700 font-medium py-2"
+              className="hidden block text-secondary-800 hover:text-primary-700 font-medium py-2"
               onClick={() => setIsMenuOpen(false)}
             >
               About Us
             </Link>
             <Link
               href="/join-our-team"
-              className="block text-secondary-800 hover:text-primary-700 font-medium py-2"
+              className="hidden block text-secondary-800 hover:text-primary-700 font-medium py-2"
               onClick={() => setIsMenuOpen(false)}
             >
               Join Our Team

@@ -34,7 +34,7 @@ export default function Home() {
               Serving Austin and Central Texas with quality truck and fleet maintenance services for over 50 years.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact" className="btn btn-primary text-lg px-8 py-3">
+              <Link href="/contact" className="btn btn-secondary text-lg px-8 py-3">
                 Contact Us
               </Link>
               {isMobile ? (
@@ -203,13 +203,13 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
-                <div className="flex items-center mb-4">
+                <div className="flex items-center mb-4 text-secondary-700">
                   <Phone className="mr-2 h-5 w-5 text-primary-900" />
-                  <p className="text-secondary-700">512-389-2121</p>
+                    <span>512-389-2121</span>
                 </div>
-                <div className="flex items-center mb-4">
+                <div className="flex items-center mb-4 text-secondary-700">
                   <Printer className="mr-2 h-5 w-5 text-primary-900" />
-                  <p className="text-secondary-700">512-389-2970</p>
+                  <span>512-389-2970</span>
                 </div>
                 <div className="mt-6">
                   <h4 className="font-bold mb-2">Business Hours</h4>
