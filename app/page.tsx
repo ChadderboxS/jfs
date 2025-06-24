@@ -28,7 +28,7 @@ export default function Home() {
         {/* Content */}
         <div className="relative z-10 container mx-auto px-4">
           <div className="w-full sm:w-2/5 min-w-md text-white">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 drop-shadow-lg">Professional Fleet Service & Repair</h1>
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 drop-shadow-lg">Commercial Fleet Service & Repair</h1>
             <p className="text-xl md:text-2xl mb-4 drop-shadow-md">Third generation owned and operated since 1971</p>
             <p className="text-lg mb-8 drop-shadow-md">
               Serving Austin and Central Texas with quality truck and fleet maintenance services for over 50 years.

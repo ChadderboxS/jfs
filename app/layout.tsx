@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Johnson's Fleet Service | Third Generation Owned and Operated Since 1971",
   description:
-    "Johnson's Fleet Service provides professional truck, trailer, box, body, lift gates, chippers, and fleet services in Austin, TX.",
+    "Johnson's Fleet Service provides commercial truck, trailer, box, body, lift gates, chippers, and fleet services in Austin, TX.",
   icons: {
     icon: "/images/jfs-logo.png",
   },
