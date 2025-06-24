@@ -106,7 +106,7 @@ export default function ServicesPage() {
                 <h2 className="text-2xl font-bold">Box & Body Repair</h2>
               </div>
               <p className="text-secondary-700 mb-4">
-                Our skilled technicians provide expert repair services for truck bodies and boxes, ensuring your
+                Our skilled technicians provide expert repair services for van and truck bodies and boxes, ensuring your
                 vehicles maintain their functionality and appearance.
               </p>
               <ul className="space-y-2 mb-6">
@@ -175,32 +175,32 @@ export default function ServicesPage() {
                 <div className="mr-4 p-3 bg-primary-100 text-primary-900 rounded-full">
                   <Wrench className="h-6 w-6" />
                 </div>
-                <h2 className="text-2xl font-bold">Chipper Repair</h2>
+                <h2 className="text-2xl font-bold">Roll Up Door Service</h2>
               </div>
               <p className="text-secondary-700 mb-4">
-                Our technicians are experienced in the repair and maintenance of wood chippers and related equipment,
-                keeping your machinery running efficiently.
+                We specialize in installation, repair, and maintenance for box truck and van roll up doors — 
+                helping your drivers stay safe, secure, and on schedule.
               </p>
               <ul className="space-y-2 mb-6">
                 <li className="flex items-start">
                   <span className="text-primary-900 mr-2">•</span>
-                  <span>Engine and hydraulic system repair</span>
+                  <span>Repairs for damaged or stuck roll up doors</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary-900 mr-2">•</span>
-                  <span>Blade sharpening and replacement</span>
+                  <span>Replacement of panels, springs, tracks, and rollers</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary-900 mr-2">•</span>
-                  <span>Feed system repair</span>
+                  <span>Preventative maintenance to reduce breakdowns and delays</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary-900 mr-2">•</span>
-                  <span>Discharge chute repair</span>
+                  <span>New door installation for upfits or retrofits</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary-900 mr-2">•</span>
-                  <span>Safety system inspection and repair</span>
+                  <span>Emergency service to get vehicles back on the road fast</span>
                 </li>
               </ul>
             </div>
