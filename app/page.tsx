@@ -34,26 +34,28 @@ export default function Home() {
               alt="Johnson's Fleet Service logo"
               className="w-xl h-auto mb-2"
             />
-            <h1 className="text-xl md:text-2xl mb-4 drop-shadow-md">Commercial Truck Repair, Fleet Service, and Trailer</h1>
-            <p className="text-lg mb-4 drop-shadow-md">Third generation owned and operated since 1971</p>
-            <p className="text-lg mb-8 drop-shadow-md">
-              Serving Austin and Central Texas with quality truck, trailer, and fleet maintenance services for over 50 years.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact" className="btn btn-secondary text-xl px-8 py-3">
-                Contact Us
-              </Link>
-              {isMobile ? (
-                <a href="tel:5123892121" className="btn white-border-btn text-xl px-8 py-3">
-                  <Phone className="mr-2 h-5 w-5" />
-                  512-389-2121
-                </a>
-              ) : (
-                <div className="btn white-border-btn text-xl px-8 py-3">
-                  <Phone className="mr-2 h-5 w-5" />
-                  512-389-2121
-                </div>
-              )}
+            <div className=" pl-6">
+              <h1 className="text-xl md:text-2xl mb-4 drop-shadow-md">Commercial Truck Repair, Fleet Service, and Trailer</h1>
+              <p className="text-lg mb-4 drop-shadow-md">Third generation owned and operated since 1971</p>
+              <p className="text-lg mb-8 drop-shadow-md">
+                Serving Austin and Central Texas with quality truck, trailer, and fleet maintenance services for over 50 years.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Link href="/contact" className="btn btn-secondary text-xl px-8 py-3">
+                  Contact Us
+                </Link>
+                {isMobile ? (
+                  <a href="tel:5123892121" className="btn white-border-btn text-xl px-8 py-3">
+                    <Phone className="mr-2 h-5 w-5" />
+                    512-389-2121
+                  </a>
+                ) : (
+                  <div className="btn white-border-btn text-xl px-8 py-3">
+                    <Phone className="mr-2 h-5 w-5" />
+                    512-389-2121
+                  </div>
+                )}
+              </div>
             </div>
           </div>
         </div>
