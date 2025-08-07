@@ -1,7 +1,8 @@
 import Link from "next/link"
 import Image from "next/image"
-import { Phone, MapPin, Award, Truck, PenToolIcon as Tools, Clock, Users, Printer } from "lucide-react"
+import { Phone, MapPin, Award, Truck, PenToolIcon as Tools, Clock, Users, Printer, Mail } from "lucide-react"
 import heroRightImg from "@/public/images/hero-johnsons-fleet-service.png"
+import logoImg from "@/public/images/logo-johnsons-fleet-service-white.png"
 
 
 
@@ -28,22 +29,27 @@ export default function Home() {
         {/* Content */}
         <div className="relative z-10 container mx-auto px-4">
           <div className="w-full sm:w-2/5 min-w-md text-white">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 drop-shadow-lg">Commercial Fleet Service & Repair</h1>
-            <p className="text-xl md:text-2xl mb-4 drop-shadow-md">Third generation owned and operated since 1971</p>
+            <Image
+              src={logoImg}
+              alt="Johnson's Fleet Service logo"
+              className="w-xl h-auto mb-2"
+            />
+            <h1 className="text-xl md:text-2xl mb-4 drop-shadow-md">Commercial Truck Repair, Fleet Service, and Trailer</h1>
+            <p className="text-lg mb-4 drop-shadow-md">Third generation owned and operated since 1971</p>
             <p className="text-lg mb-8 drop-shadow-md">
-              Serving Austin and Central Texas with quality truck and fleet maintenance services for over 50 years.
+              Serving Austin and Central Texas with quality truck, trailer, and fleet maintenance services for over 50 years.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact" className="btn btn-secondary text-lg px-8 py-3">
+              <Link href="/contact" className="btn btn-secondary text-xl px-8 py-3">
                 Contact Us
               </Link>
               {isMobile ? (
-                <a href="tel:5123892121" className="btn white-border-btn text-lg px-8 py-3">
+                <a href="tel:5123892121" className="btn white-border-btn text-xl px-8 py-3">
                   <Phone className="mr-2 h-5 w-5" />
                   512-389-2121
                 </a>
               ) : (
-                <div className="btn white-border-btn text-lg px-8 py-3">
+                <div className="btn white-border-btn text-xl px-8 py-3">
                   <Phone className="mr-2 h-5 w-5" />
                   512-389-2121
                 </div>
@@ -74,7 +80,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold mb-2">Fleet Maintenance</h3>
               <p className="text-secondary-700">
-                Comprehensive fleet maintenance programs to keep your vehicles on the road.
+                Comprehensive fleet maintenance programs to keep your vehicles repair cost down and keep your vehicles on the road.
               </p>
             </div>
 
@@ -97,7 +103,7 @@ export default function Home() {
       {/* Why Choose Us */}
       <section className="bg-secondary-100 py-16">
         <div className="container mx-auto px-4">
-          <h2 className="section-title">Why Choose Johnson&apos;s Fleet Service</h2>
+          <h2 className="section-title">Why Choose Johnson&apos;s Fleet Service, Inc.</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="flex items-start">
               <div className="mr-4 text-primary-900">
@@ -195,7 +201,7 @@ export default function Home() {
                 <div className="flex items-start mb-4">
                   <MapPin className="mr-2 h-5 w-5 mt-1 flex-shrink-0 text-primary-900" />
                   <div>
-                    <p className="font-medium">Johnson&apos;s Fleet Service</p>
+                    <p className="font-medium">Johnson&apos;s Fleet Service, Inc.</p>
                     <p className="text-secondary-700">
                       2800 Hoeke Ln
                       <br />
@@ -210,6 +216,14 @@ export default function Home() {
                 <div className="flex items-center mb-4 text-secondary-700">
                   <Printer className="mr-2 h-5 w-5 text-primary-900" />
                   <span>512-389-2970</span>
+                </div>
+                <div className="flex items-center mb-4 text-secondary-700">
+                  <Mail className="mr-2 h-5 w-5 text-primary-900" />
+                    <span>
+                      <a href="mailto:jfsrepair@gmail.com" className="hover:text-primary-700">
+                        jfsrepair@gmail.com
+                      </a>
+                    </span>
                 </div>
                 <div className="mt-6">
                   <h4 className="font-bold mb-2">Business Hours</h4>

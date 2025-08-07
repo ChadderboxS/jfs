@@ -13,7 +13,7 @@ export default function ContactPage() {
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-center">Contact Us</h1>
           <p className="text-xl text-center max-w-3xl mx-auto">
-            Get in touch with Johnson&apos;s Fleet Service for all your fleet maintenance and repair needs.
+            Get in touch with Johnson&apos;s Fleet Service, Inc. for all your fleet maintenance and repair needs.
           </p>
         </div>
       </section>
@@ -60,8 +60,8 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-bold mb-1">Email</h3>
                     <p className="text-secondary-700">
-                      <a href="mailto:info@johnsonsfleetservice.com" className="hover:text-primary-700">
-                        info@jfsatx.com
+                      <a href="mailto:jfsrepair@gmail.com" className="hover:text-primary-700">
+                        jfsrepair@gmail.com
                       </a>
                     </p>
                   </div>

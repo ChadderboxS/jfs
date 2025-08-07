@@ -14,7 +14,7 @@ export default function JoinOurTeamPage() {
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-center">Join Our Team</h1>
           <p className="text-xl text-center max-w-3xl mx-auto">
-            Build your career with Johnson&apos;s Fleet Service, a family-owned business with over 50 years of
+            Build your career with Johnson&apos;s Fleet Service, Inc., a family-owned business with over 50 years of
             experience in the industry.
           </p>
         </div>
@@ -27,7 +27,7 @@ export default function JoinOurTeamPage() {
             <div className="md:w-1/2">
               <h2 className="text-3xl font-bold mb-4">Why Work With Us</h2>
               <p className="text-secondary-700 mb-4">
-                At Johnson&apos;s Fleet Service, we value our employees and provide a supportive, growth-oriented
+                At Johnson&apos;s Fleet Service, Inc., we value our employees and provide a supportive, growth-oriented
                 environment where you can develop your skills and advance your career.
               </p>
               <p className="text-secondary-700 mb-4">
@@ -175,7 +175,7 @@ export default function JoinOurTeamPage() {
               <h4 className="font-bold mb-2">What to Include:</h4>
               <ul className="list-disc pl-5 mb-4 text-secondary-700">
                 <li>Your resume with relevant experience</li>
-                <li>Cover letter explaining your interest in Johnson&apos;s Fleet Service</li>
+                <li>Cover letter explaining your interest in Johnson&apos;s Fleet Service, Inc.</li>
                 <li>Types of positions you&apos;re interested in</li>
                 <li>Availability and preferred work schedule</li>
               </ul>

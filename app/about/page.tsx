@@ -12,7 +12,7 @@ export default function AboutPage() {
       {/* Hero Section */}
       <section className="bg-primary-900 text-white py-16">
         <div className="container mx-auto px-4">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-center">About Johnson&apos;s Fleet Service</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-center">About Johnson&apos;s Fleet Service, Inc.</h1>
           <p className="text-xl text-center max-w-3xl mx-auto">
             Third generation owned and operated since 1971, serving Austin and Central Texas for over 50 years.
           </p>
@@ -36,7 +36,7 @@ export default function AboutPage() {
             <div className="md:w-1/2">
               <h2 className="text-3xl font-bold mb-4">Our Story</h2>
               <p className="text-secondary-700 mb-4">
-                Johnson&apos;s Fleet Service was founded in 1971 by John Johnson, who had a vision to provide quality
+                Johnson&apos;s Fleet Service, Inc. was founded in 1971 by John Johnson, who had a vision to provide quality
                 truck and fleet maintenance services to the Austin area. What began as a small repair shop has grown
                 into a trusted name in fleet service throughout Central Texas.
               </p>
@@ -96,7 +96,7 @@ export default function AboutPage() {
       {/* Why Choose Us */}
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <h2 className="section-title">Why Choose Johnson&apos;s Fleet Service</h2>
+          <h2 className="section-title">Why Choose Johnson&apos;s Fleet Service, Inc.</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="flex items-start">
               <div className="mr-4 text-primary-900">

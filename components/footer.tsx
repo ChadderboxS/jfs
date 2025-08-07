@@ -104,7 +104,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-secondary-700 mt-8 pt-8 text-center text-secondary-300">
-          <p>&copy; {currentYear} Johnson&apos;s Fleet Service. All rights reserved.</p>
+          <p>&copy; {currentYear} Johnson&apos;s Fleet Service, Inc. All rights reserved.</p>
         </div>
       </div>
     </footer>

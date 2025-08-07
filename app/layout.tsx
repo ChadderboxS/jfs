@@ -4,15 +4,16 @@ import { Inter } from "next/font/google"
 import "./globals.css"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
+import { Analytics } from "@vercel/analytics/next"
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Johnson's Fleet Service | Third Generation Owned and Operated Since 1971",
+  title: "Johnson's Fleet Service, Inc. | Third Generation Owned and Operated Since 1971",
   description:
-    "Johnson's Fleet Service provides commercial truck, trailer, box, body, lift gates, chippers, and fleet services in Austin, TX.",
+    "Johnson's Fleet Service, Inc. provides Austin and Central Texas with quality truck, trailer, and fleet maintenance services for over 50 years",
   icons: {
-    icon: "/images/jfs-logo.png",
+    icon: "/images/logo-johnsons-fleet-service.png",
   },
 }
 
@@ -27,6 +28,7 @@ export default function RootLayout({
         <div className="flex flex-col min-h-screen">
           <Header />
           <main className="flex-grow">{children}</main>
+          <Analytics />
           <Footer />
         </div>
       </body>

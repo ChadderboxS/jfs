@@ -12,19 +12,16 @@ export default function Header() {
   const isMobile = useMobile()
 
   return (
-    <header className="bg-white shadow-md">
-      <div className="container mx-auto px-4 py-4">
-        <div className="flex items-center justify-between">
-          <Link href="/" className="flex items-center">
-            <div className="relative h-16 w-64">
+    <header className="sticky top-0 z-50 bg-white shadow-md">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-16">
+          <Link href="/" className="relative ml-3 md:ml-0 flex items-center">
               <Image
                 src={johnsonsFleetServiceLogo}
-                alt="Johnson's Fleet Service Logo"
-                fill
-                className="object-contain"
+                alt="Johnson's Fleet Service logo"
+                className="h-20 w-auto"
                 priority
               />
-            </div>
           </Link>
 
           {/* Desktop Navigation */}
@@ -117,5 +114,6 @@ export default function Header() {
         )}
       </div>
     </header>
+
   )
 }
