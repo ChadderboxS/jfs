@@ -13,9 +13,9 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-white shadow-md">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          <Link href="/" className="relative ml-3 md:ml-0 flex items-center">
+          <Link href="/" className="relative ml-3 flex items-center">
               <Image
                 src={johnsonsFleetServiceLogo}
                 alt="Johnson's Fleet Service logo"
@@ -25,7 +25,7 @@ export default function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden md:flex items-center space-x-8 text-xl">
             <Link href="/" className="text-secondary-800 hover:text-primary-700 font-medium">
               Home
             </Link>
@@ -66,7 +66,7 @@ export default function Header() {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <nav className="md:hidden mt-4 pb-4 space-y-4">
+          <nav className="md:hidden mt-4 pb-4 space-y-4 text-xl">
             <Link
               href="/"
               className="block text-secondary-800 hover:text-primary-700 font-medium py-2"

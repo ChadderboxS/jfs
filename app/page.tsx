@@ -23,12 +23,12 @@ export default function Home() {
             priority
           />
           {/* Dark overlay for better text readability */}
-          {/*<div className="absolute inset-0 bg-black bg-opacity-40"></div>*/}
+          <div className="absolute inset-0 bg-black bg-opacity-15"></div>
         </div>
 
         {/* Content */}
         <div className="relative z-10 container mx-auto px-4">
-          <div className="w-full sm:w-2/5 min-w-md text-white">
+          <div className="w-full md:w-2/5 min-w-[450px] text-white">
             <Image
               src={logoImg}
               alt="Johnson's Fleet Service logo"
@@ -40,17 +40,17 @@ export default function Home() {
               <p className="text-lg mb-8 drop-shadow-md">
                 Serving Austin and Central Texas with quality truck, trailer, and fleet maintenance services for over 50 years.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/contact" className="btn btn-secondary text-xl px-8 py-3">
+              <div className="flex flex-col md:flex-row gap-4">
+                <Link href="/contact" className="btn btn-secondary px-8 py-3">
                   Contact Us
                 </Link>
                 {isMobile ? (
-                  <a href="tel:5123892121" className="btn white-border-btn text-xl px-8 py-3">
+                  <a href="tel:5123892121" className="btn white-border-btn px-8 py-3">
                     <Phone className="mr-2 h-5 w-5" />
                     512-389-2121
                   </a>
                 ) : (
-                  <div className="btn white-border-btn text-xl px-8 py-3">
+                  <div className="btn white-border-btn px-8 py-3">
                     <Phone className="mr-2 h-5 w-5" />
                     512-389-2121
                   </div>
@@ -165,13 +165,13 @@ export default function Home() {
       {/* Contact CTA */}
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <div className="bg-primary-900 text-white rounded-lg p-8 md:p-12">
-            <div className="flex flex-col md:flex-row items-center justify-between">
-              <div className="mb-6 md:mb-0">
+          <div className="bg-primary-900 text-white rounded-lg p-8 lg:p-12">
+            <div className="flex flex-col lg:flex-row items-center justify-between">
+              <div className="mb-6 md:mb-0 w-auto">
                 <h2 className="text-2xl md:text-3xl font-bold mb-2">Ready to get started?</h2>
                 <p className="text-primary-100">Contact us today for all your fleet service needs.</p>
               </div>
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="w-full md:w-auto flex flex-col md:flex-row gap-4">
                 <Link href="/contact" className="btn btn-secondary">
                   Contact Us
                 </Link>
