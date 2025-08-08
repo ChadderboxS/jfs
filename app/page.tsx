@@ -32,9 +32,9 @@ export default function Home() {
             <Image
               src={logoImg}
               alt="Johnson's Fleet Service logo"
-              className="w-xl h-auto mb-2"
+              className="w-xl h-auto -ml-[25px] mb-2"
             />
-            <div className=" pl-6">
+            <div>
               <h1 className="text-xl md:text-2xl mb-4 drop-shadow-md">Commercial Truck Repair, Fleet Service, and Trailer</h1>
               <p className="text-lg mb-4 drop-shadow-md">Third generation owned and operated since 1971</p>
               <p className="text-lg mb-8 drop-shadow-md">
