@@ -105,7 +105,7 @@ export default function Home() {
       {/* Why Choose Us */}
       <section className="bg-secondary-100 py-16">
         <div className="container mx-auto px-4">
-          <h2 className="section-title">Why Choose Johnson&apos;s Fleet Service, Inc.</h2>
+          <h2 className="section-title">Why Choose Johnson&apos;s Fleet Service Inc</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="flex items-start">
               <div className="mr-4 text-primary-900">
@@ -203,7 +203,7 @@ export default function Home() {
                 <div className="flex items-start mb-4">
                   <MapPin className="mr-2 h-5 w-5 mt-1 flex-shrink-0 text-primary-900" />
                   <div>
-                    <p className="font-medium">Johnson&apos;s Fleet Service, Inc.</p>
+                    <p className="font-medium">Johnson&apos;s Fleet Service Inc</p>
                     <p className="text-secondary-700">
                       2800 Hoeke Ln
                       <br />

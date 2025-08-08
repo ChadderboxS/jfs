@@ -13,7 +13,7 @@ export default function ContactPage() {
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-center">Contact Us</h1>
           <p className="text-xl text-center max-w-3xl mx-auto">
-            Get in touch with Johnson&apos;s Fleet Service, Inc. for all your fleet maintenance and repair needs.
+            Get in touch with Johnson&apos;s Fleet Service Inc for all your fleet maintenance and repair needs.
           </p>
         </div>
       </section>

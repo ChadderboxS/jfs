@@ -14,7 +14,7 @@ export default function ServicesPage() {
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-center">Our Services</h1>
           <p className="text-xl text-center max-w-3xl mx-auto">
-            Johnson&apos;s Fleet Service, Inc., provides comprehensive maintenance and repair services for trucks, trailers,
+            Johnson&apos;s Fleet Service Inc, provides comprehensive maintenance and repair services for trucks, trailers,
             and fleet vehicles.
           </p>
         </div>
@@ -249,7 +249,7 @@ export default function ServicesPage() {
           <div className="text-center max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-4">Need Service for Your Fleet?</h2>
             <p className="text-secondary-700 mb-8">
-              Contact Johnson&apos;s Fleet Service, Inc. today to schedule service or discuss your fleet maintenance needs.
+              Contact Johnson&apos;s Fleet Service Inc today to schedule service or discuss your fleet maintenance needs.
               Our experienced team is ready to help keep your vehicles on the road.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">

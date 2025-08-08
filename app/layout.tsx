@@ -9,9 +9,9 @@ import { Analytics } from "@vercel/analytics/next"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Johnson's Fleet Service, Inc. | Third Generation Owned and Operated Since 1971",
+  title: "Johnson's Fleet Service Inc | Third Generation Owned and Operated Since 1971",
   description:
-    "Johnson's Fleet Service, Inc. provides Austin and Central Texas with quality truck, trailer, and fleet maintenance services for over 50 years",
+    "Johnson's Fleet Service Inc provides Austin and Central Texas with quality truck, trailer, and fleet maintenance services for over 50 years",
   icons: {
     icon: "/images/logo-johnsons-fleet-service.png",
   },
