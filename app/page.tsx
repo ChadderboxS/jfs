@@ -28,7 +28,7 @@ export default function Home() {
 
         {/* Content */}
         <div className="relative z-10 container mx-auto px-4">
-          <div className="w-full md:w-2/5 min-w-[450px] text-white">
+          <div className="w-full md:w-2/5 md:min-w-[450px] text-white">
             <Image
               src={logoImg}
               alt="Johnson's Fleet Service logo"
