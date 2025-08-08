@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { Truck, PenToolIcon as Tools, Wrench, Cog, Clipboard } from "lucide-react"
+import { Truck, PenToolIcon as Tools, Wrench, Cog, Clipboard, Phone } from "lucide-react"
 import { useMobile } from "@/hooks/use-mobile"
 
 export default function ServicesPage() {
@@ -258,10 +258,14 @@ export default function ServicesPage() {
               </Link>
               {isMobile ? (
                 <a href="tel:5123892121" className="btn btn-secondary">
-                  Call 512-389-2121
+                  <Phone className="mr-2 h-5 w-5" />
+                  512-389-2121
                 </a>
               ) : (
-                <div className="btn btn-secondary text-white">512-389-2121</div>
+                <div className="btn btn-secondary text-white">
+                  <Phone className="mr-2 h-5 w-5" />
+                  512-389-2121
+                </div>
               )}
             </div>
           </div>

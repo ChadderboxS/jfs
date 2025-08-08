@@ -19,88 +19,89 @@ export default function ContactPage() {
       </section>
 
       {/* Contact Information */}
-      <section className="py-16">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col lg:flex-row gap-12">
-            <div className="lg:w-1/3">
+      <section className="py-16 px-4">
+        <div className="container mx-auto md:flex-row px-4">
+          <div className="flex flex-col justify-center md:flex-row gap-6">
+            {/* <div className="lg:w-1/3"> */}
+            <div >
               <h2 className="text-3xl font-bold mb-6">Get In Touch</h2>
-              <div className="space-y-6">
-                <div className="flex items-start">
-                  <div className="mr-4 p-3 bg-primary-100 text-primary-900 rounded-full">
-                    <Phone className="h-6 w-6" />
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="space-y-6">
+                  <div className="flex items-start">
+                    <div className="mr-4 p-3 bg-primary-100 text-primary-900 rounded-full">
+                      <Phone className="h-6 w-6" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold mb-1">Phone</h3>
+                      {isMobile ? (
+                        <p className="text-secondary-700">
+                          <a href="tel:5123892121" className="hover:text-primary-700">
+                            512-389-2121
+                          </a>
+                        </p>
+                      ) : (
+                        <p className="text-secondary-700">512-389-2121</p>
+                      )}
+                    </div>
                   </div>
-                  <div>
-                    <h3 className="font-bold mb-1">Phone</h3>
-                    {isMobile ? (
+                  <div className="flex items-start">
+                    <div className="mr-4 p-3 bg-primary-100 text-primary-900 rounded-full">
+                      <Printer className="h-6 w-6" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold mb-1">Fax</h3>
+                      <p className="text-secondary-700">512-389-2970</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="mr-4 p-3 bg-primary-100 text-primary-900 rounded-full">
+                      <Mail className="h-6 w-6" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold mb-1">Email</h3>
                       <p className="text-secondary-700">
-                        <a href="tel:5123892121" className="hover:text-primary-700">
-                          512-389-2121
+                        <a href="mailto:jfsrepair@gmail.com" className="hover:text-primary-700">
+                          jfsrepair@gmail.com
                         </a>
                       </p>
-                    ) : (
-                      <p className="text-secondary-700">512-389-2121</p>
-                    )}
+                    </div>
                   </div>
                 </div>
-
-                <div className="flex items-start">
-                  <div className="mr-4 p-3 bg-primary-100 text-primary-900 rounded-full">
-                    <Printer className="h-6 w-6" />
+                <div className="space-y-6">
+                  <div className="flex items-start">
+                    <div className="mr-4 p-3 bg-primary-100 text-primary-900 rounded-full">
+                      <MapPin className="h-6 w-6" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold mb-1">Address</h3>
+                      <p className="text-secondary-700">
+                        2800 Hoeke Ln
+                        <br />
+                        Austin, TX 78744-1740
+                      </p>
+                    </div>
                   </div>
-                  <div>
-                    <h3 className="font-bold mb-1">Fax</h3>
-                    <p className="text-secondary-700">512-389-2970</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start">
-                  <div className="mr-4 p-3 bg-primary-100 text-primary-900 rounded-full">
-                    <Mail className="h-6 w-6" />
-                  </div>
-                  <div>
-                    <h3 className="font-bold mb-1">Email</h3>
-                    <p className="text-secondary-700">
-                      <a href="mailto:jfsrepair@gmail.com" className="hover:text-primary-700">
-                        jfsrepair@gmail.com
-                      </a>
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start">
-                  <div className="mr-4 p-3 bg-primary-100 text-primary-900 rounded-full">
-                    <MapPin className="h-6 w-6" />
-                  </div>
-                  <div>
-                    <h3 className="font-bold mb-1">Address</h3>
-                    <p className="text-secondary-700">
-                      2800 Hoeke Ln
-                      <br />
-                      Austin, TX 78744-1740
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start">
-                  <div className="mr-4 p-3 bg-primary-100 text-primary-900 rounded-full">
-                    <Clock className="h-6 w-6" />
-                  </div>
-                  <div>
-                    <h3 className="font-bold mb-1">Business Hours</h3>
-                    <ul className="space-y-1 text-secondary-700">
-                      <li className="flex justify-between">
-                        <span>Monday - Friday:</span>
-                        <span>8:00 AM - 5:00 PM</span>
-                      </li>
-                      <li className="flex justify-between">
-                        <span>Saturday:</span>
-                        <span>Closed</span>
-                      </li>
-                      <li className="flex justify-between">
-                        <span>Sunday:</span>
-                        <span>Closed</span>
-                      </li>
-                    </ul>
+                  <div className="flex items-start">
+                    <div className="mr-4 p-3 bg-primary-100 text-primary-900 rounded-full">
+                      <Clock className="h-6 w-6" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold mb-1">Business Hours</h3>
+                      <ul className="space-y-1 text-secondary-700">
+                        <li className="flex justify-between">
+                          <span>Monday-Friday:</span>
+                          <span className="pl-1">8:00 AM - 5:00 PM</span>
+                        </li>
+                        <li className="flex justify-between">
+                          <span>Saturday:</span>
+                          <span>Closed</span>
+                        </li>
+                        <li className="flex justify-between">
+                          <span>Sunday:</span>
+                          <span>Closed</span>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>

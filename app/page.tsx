@@ -95,7 +95,7 @@ export default function Home() {
             </div>
           </div>
           <div className="text-center mt-10">
-            <Link href="/services" className="btn btn-primary">
+            <Link href="/services" className="btn btn-primary w-full md:w-auto">
               View All Services
             </Link>
           </div>
@@ -194,10 +194,10 @@ export default function Home() {
 
       {/* Location */}
       <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
+        <div className="container px-4">
           <h2 className="section-title">Our Location</h2>
           <div className="flex flex-col md:flex-row items-center gap-8">
-            <div className="md:w-1/2">
+            <div className="w-full md:w-1/2">
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-xl font-bold mb-4">Visit Us</h3>
                 <div className="flex items-start mb-4">
